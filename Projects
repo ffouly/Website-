@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+<title>Farah Fouly</title>
+</head>
+<body>
+<header>
+		Logo and Photo
+		<nav> Some navigation </nav>
+</header>
+<h1>Electrical Engineering Student</h1>
+<h2>Biomedical Option, Minor in Entrepreneurship</h2>
+<section>
+	<div> <a href="My website.html" title="Home"> Home</a>   
+		<span> <a href="Projects.html" title="Projects"> Projects</a></span>
+		<span> <a href="Interests.html" title="Interests"> Interests</a></span>
+		<span> <a href="Contact.html" title="Contact"> Contact</a></span>
+	</div>
+</section>
+<section>
+	<article> I am a third year Electrical Engineering student at the univrsity of British Columbia. </article>
+	
+
+	</div>
+</section>
+<footer> Farah Fouly 2020 &copy; </footer>
+</body>
+</html>
