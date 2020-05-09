@@ -105,9 +105,15 @@
 	  text-decoration: none;
 	  display: block;
 	}
-	.dropdown-content a:hover {background-color: #ddd;}
+	.dropdown-content a:hover {display: block;
+	  background-color: navy;
+	  color: white;
+	  cursor: pointer;
+	}
+
+
 	.dropdown:hover .dropdown-content {display: block;}
-	.dropdown:hover .dropbtn {background-color: navy; }
+	.dropdown:hover .dropbtn {background-color: navy; color:white;}
 
 	ul {
 		margin-left: 100px;
