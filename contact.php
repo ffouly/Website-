@@ -1,5 +1,5 @@
 	<?php
-		if(!empty($_POST["send"])) {
+		if(!empty($_POST['submit'])) {
 				$fname = $_POST['firstname'];
 				$lname = $_POST['lastname'];
 				$email = $_POST['email'];
