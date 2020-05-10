@@ -3,7 +3,7 @@
 				$fname = $_POST['firstname'];
 				$lname = $_POST['lastname'];
 				$email = $_POST['email'];
-				$Message = $_POST['message'];
+				$message = $_POST['message'];
 				$formcontent="From: $fname $lname \n Message: $message";
 				$recipient = "farah.fouly@hotmail.com";
 				$subject = $_POST['subject'];
