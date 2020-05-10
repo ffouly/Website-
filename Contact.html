@@ -18,28 +18,33 @@ input[type=text], select, textarea {
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  color: navy;
+  text-transform: uppercase;
+  font-style: callibri;
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: lightblue;
-  color: white;
+  background-color: white;
+  color: navy;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-weight: bold;
+
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: white;
-  color: lightblue;
+  background-color: navy;
+  color: white;
 }
 
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: white;
+  background-color: background: linear-gradient(to bottom, #cce6ff 10%, #ffffff 69%);
   padding: 20px;
 }
 </style>
@@ -75,9 +80,13 @@ input[type=submit]:hover {
 			<a class="dropbtn" href="Contact.html" title="Contact" style="padding-right: 30px; padding-left: 30px;"> Contact 
 			</a>
 		</div>
+		<div class="dropdown">
+			<a class="dropbtn" href="www.linkedin.com/in/farahfouly" title="Linkedin" style="padding-right: 30px; padding-left: 30px;"> Linkedin 
+			</a>
+		</div>
 
 	<div class="container">
-	  <form action="action_page.php">
+	  <form action="contact.php" method="POST">
 
 	    <label for="fname">First Name</label>
 	    <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -85,20 +94,30 @@ input[type=submit]:hover {
 	    <label for="lname">Last Name</label>
 	    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
+	    <label for="email">E-mail</label>
+	    <input type="text" id="email" name="email" placeholder="Type your E-mail address..">
+
 	    <label for="country">Country</label>
 	    <select id="country" name="country">
 	      <option value="canada">Canada</option>
-	      <option value="United Arab Emirates">Australia</option>
+	      <option value="United Arab Emirates">United Arab Emirates</option>
 	      <option value="United States">USA</option>
 	    </select>
 
 	    <label for="subject">Subject</label>
-	    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+	    <input type="text" id="subject" name="subject" placeholder="Subject...">
 
-	    <input type="submit" value="Submit">
+	    <label for="message">Message</label>
+	    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+	    <input type="submit" value="Send"> 
+
 
 	  </form>
+
+
 	</div>
+
 <footer> Farah Fouly 2020 &copy; </footer>
 </body>
 </html>
