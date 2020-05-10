@@ -10,7 +10,7 @@
 
 	/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
+  width: 50%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
@@ -89,29 +89,29 @@ input[type=submit]:hover {
 	<div class="container">
 	  <form action="contact.php" method="POST" name="Contact">
 
-	    <label for="fname">First Name</label>
+	    <div> <label for="fname">First Name</label> </div>
 	    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-	    <label for="lname">Last Name</label>
+	    <div> <label for="lname">Last Name</label> </div>
 	    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-	    <label for="email">E-mail</label>
+	    <div> <label for="email">E-mail</label> </div>
 	    <input type="text" id="email" name="email" placeholder="Type your E-mail address..">
 
-	    <label for="country">Country</label>
+	    <div> <label for="country">Country</label> </div>
 	    <select id="country" name="country">
 	      <option value="canada">Canada</option>
 	      <option value="United Arab Emirates">United Arab Emirates</option>
 	      <option value="United States">USA</option>
 	    </select>
 
-	    <label for="subject">Subject</label>
+	    <div> <label for="subject">Subject</label> </div>
 	    <input type="text" id="subject" name="subject" placeholder="Subject...">
 
-	    <label for="message">Message</label>
+	    <div> <label for="message">Message</label> </div>
 	    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
 
-	    <input type="submit" value="Submit"> 
+	    <div> <input type="submit" value="Submit"> </div>
 
 
 	  </form>
